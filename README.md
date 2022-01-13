@@ -1,3 +1,4 @@
+
 - We propose Attention FocusNet and SE-Attention U-Net models as an automatic
 end-to-end dermoscopic lesion delineation models. Attention FocusNet
 exploits AG which can effectively remove lower-level irrelevant information

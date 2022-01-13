@@ -1,0 +1,15 @@
+Abstract. Nowadays, the attention mechanism is widely used in image
+segmentation. Recently many attention gate (AG) based models have
+gained interest for use in the delineation processes. However, adding
+only AG in the models can sometimes produce fallacious results due
+to irregular lesion boundaries and illumination variation conditions. To
+address these issues, we propose two novel methods, Attention FocusNet
+and SE-Attention U-Net. Attention FocusNet focuses on the use of AG
+to get much improved hierarchical attention maps and lowers the details
+of irrelevant information in the model to create a segmented image mask.
+SE-Attention U-Net, on the other hand, re-calibrates the weights of the
+feature vector and pass it through AG to focus on relevant information
+and suppressing any superficial information. We experimented on three
+medical image datasets, which are ISIC 2017, ISIC 2018 and HAM10000.
+Validation results show that the proposed methods outperform the state
+of-the-art methodologies and obtained better segmentation accuracy.
